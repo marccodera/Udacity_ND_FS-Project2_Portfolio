@@ -10,7 +10,7 @@ A computer and a web browser
 ## Install
 Copy files to your computer
 
-# Usage
+## Usage
 Open the index.html with a web browser
 
 ## Author
