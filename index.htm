@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
+
+<head>
 
     <meta name="description" content="Udacity Build A Portfolio Project" />
     <meta name="author" content="Marc Codera Campos">
@@ -17,101 +18,104 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
 
-    <script type="text/javascript" src="js/jQuery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
 
-  </head>
-
-  <body>
+<body>
     <div class="container">
 
-      <header class="row header_line">
+        <header class="row header-line">
 
-        <div class="col-xs-12 col-sm-6 col-md-6">
-          <!-- Insert SVG logo to the site -->
-          <svg height="100" width="100">
-            <ellipse cx="75" cy="10" rx="25" ry="90" style="fill:#7d97ad" />
-            <ellipse cx="50" cy="5" rx="20" ry="70" style="fill:#2d3c49" />
-            <ellipse cx="25" cy="0" rx="15" ry="50" style="fill:brown" />
-          </svg>
-        </div>
+            <div class="col-xs-12 col-sm-6 col-md-6">
+                <!-- Insert SVG logo to the site -->
+                <svg height="100" width="100">
+                    <ellipse class="ellipse-big" cx="75" cy="10" rx="25" ry="90" />
+                    <ellipse class="ellipse-medium" cx="50" cy="5" rx="20" ry="70" />
+                    <ellipse class="ellipse-small" cx="25" cy="0" rx="15" ry="50" />
+                </svg>
+            </div>
 
-        <div class="col-xs-12 col-sm-6 col-md-6 text-right text-uppercase">
-          <h1 class="heading_text_h1">Marc Codera Campos</h1>
-          <h4 class="heading_text_h4">Front-end Ninja</h4>
-        </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 text-right text-uppercase">
+                <h1 class="heading-text-h1">Marc Codera Campos</h1>
+                <h4 class="heading-text-h4">Front-end Ninja</h4>
+            </div>
 
-      </header>
+        </header>
 
-      <figure class="row">
-          <!-- Picture element: I'm using picture element because I haven't found another way to use diferent picture sizes than this, check style.css file -->
-          <picture class="col-md-12">
-            <source media="(min-width: 750px)" srcset="./img/swiss_train_1140x350.jpg">
-            <source media="(max-width: 751px)" srcset="./img/swiss_train_750x350.jpg"> 
-            <img src="./img/swiss_train_1140x350.jpg" class="img-responsive" alt="Main image">
-          </picture>
+        <figure class="row">
+            <!-- Picture element: I'm using picture element because I haven't found another way to use diferent picture sizes than this, check style.css file -->
+            <picture class="col-md-12">
+                <source media="(min-width: 750px)" srcset="./img/swiss_train_1140x350.jpg">
+                    <source media="(max-width: 751px)" srcset="./img/swiss_train_750x350.jpg">
+                        <img src="./img/swiss_train_1140x350.jpg" class="img-responsive" alt="Main image">
+            </picture>
 
-      </figure>
+        </figure>
 
-      <article>
+        <article>
 
-      <div class="row">
+            <div class="row">
 
-        <div class="col-md-12 featured_title">
-          <h2>Featured Work</h2>
-        </div>
+                <div class="col-md-12 featured-title">
+                    <h2>Featured Work</h2>
+                </div>
 
-      </div>
+            </div>
 
-      <section class="row featured_text">
+            <section class="row featured-text">
 
-        <div class="col-sm-12 col-md-4 text-center text-uppercase">
-          <img class ="image_featured img-responsive" src="./img/pj_movie_trailer_555x300.jpg" data-toggle="modal" data-target="#project1" alt="Project 1 website screenshot, it was a movie trailer site made with python.">
-          <h3>Movie Trailer Site</h3>
-          <!-- TODO: try to make button from link -->
-          <p><a href="https://github.com/marccodera/Udacity_ND_FS-Project1_Python" class="text-lowercase">Link to project</a></p>
-        </div>
+                <div class="col-sm-12 col-md-4 text-center text-uppercase">
+                    <img class="image-featured img-responsive" src="./img/pj_movie_trailer_555x300.jpg" data-toggle="modal" data-target="#project1" alt="Project 1 website screenshot, it was a movie trailer site made with python.">
+                    <h3>Movie Trailer Site</h3>
+                    <!-- TODO: try to make button from link -->
+                    <p><a href="https://github.com/marccodera/Udacity_ND_FS-Project1_Python" class="text-lowercase">Link to project</a>
+                    </p>
+                </div>
 
-        <div class="col-sm-6 col-md-4 text-center text-uppercase">
-          <img class ="image_featured img-responsive" src="./img/pj_resume_555x300.jpg" data-toggle="modal" data-target="#project2" alt="Project 2 website screenshot, a resume website">
-          <h3>Resume website</h3>
-          <p><a href="https://github.com/marccodera/frontend-nanodegree-resume" class="text-lowercase">Link to project</a></p>
-        </div>
+                <div class="col-sm-6 col-md-4 text-center text-uppercase">
+                    <img class="image-featured img-responsive" src="./img/pj_resume_555x300.jpg" data-toggle="modal" data-target="#project2" alt="Project 2 website screenshot, a resume website">
+                    <h3>Resume website</h3>
+                    <p><a href="https://github.com/marccodera/frontend-nanodegree-resume" class="text-lowercase">Link to project</a>
+                    </p>
+                </div>
 
-        <div class="col-sm-6 col-md-4 text-center text-uppercase">
-          <img class ="image_featured img-responsive" src="./img/pj_portfolio_555x300.jpg" data-toggle="modal" data-target="#project3" alt="Project 3 website screenshot, a portfolio">
-          <h3>Portfolio</h3>
-          <p><a href="http://github.com/" class="text-lowercase">Link to project</a></p>
-        </div>
+                <div class="col-sm-6 col-md-4 text-center text-uppercase">
+                    <img class="image-featured img-responsive" src="./img/pj_portfolio_555x300.jpg" data-toggle="modal" data-target="#project3" alt="Project 3 website screenshot, a portfolio">
+                    <h3>Portfolio</h3>
+                    <p><a href="http://github.com/" class="text-lowercase">Link to project</a>
+                    </p>
+                </div>
 
-      </section>
+            </section>
 
-      <section class="row featured_text">
+            <section class="row featured-text">
 
-        <div class="col-sm-6 col-md-6 text-center text-uppercase">
-          <img class ="image_featured img-responsive" src="./img/pj_wordpress_psyc_555x300.jpg" data-toggle="modal" data-target="#project4" alt="Project 4 website screenshot, a wordpress site for a psycological center">
-          <h3>Wordpress Site</h3>
-          <p><a href="http://www.centrepsicologiccaldes.com/" class="text-lowercase">Link to project</a></p>
-        </div>
-        <div class="col-sm-6 col-md-6 text-center text-uppercase">
-          <img class ="image_featured img-responsive" src="./img/pj_wordpress_uota_555x300.jpg" data-toggle="modal" data-target="#project5" alt="Project 5 website screenshot, a wordpress site for the UOTA">
-          <h3>Wordpress Site</h3>
-          <p><a href="http://www.uota.es/" class="text-lowercase">Link to project</a></p>
-        </div>
+                <div class="col-sm-6 col-md-6 text-center text-uppercase">
+                    <img class="image-featured img-responsive" src="./img/pj_wordpress_psyc_555x300.jpg" data-toggle="modal" data-target="#project4" alt="Project 4 website screenshot, a wordpress site for a psycological center">
+                    <h3>Wordpress Site</h3>
+                    <p><a href="http://www.centrepsicologiccaldes.com/" class="text-lowercase">Link to project</a>
+                    </p>
+                </div>
+                <div class="col-sm-6 col-md-6 text-center text-uppercase">
+                    <img class="image-featured img-responsive" src="./img/pj_wordpress_uota_555x300.jpg" data-toggle="modal" data-target="#project5" alt="Project 5 website screenshot, a wordpress site for the UOTA">
+                    <h3>Wordpress Site</h3>
+                    <p><a href="http://www.uota.es/" class="text-lowercase">Link to project</a>
+                    </p>
+                </div>
 
-      </section>
+            </section>
 
-    </article>
+        </article>
 
-    <footer>
+        <footer class="row footer-line">
 
-      <div id="social" class="footer_line">
-        <a href="https://twitter.com/marccodera" class="zocial-twitter">Twitter</a>
-        <a href="https://www.linkedin.com/in/marc-codera/" class="zocial-linkedin">Linkedin</a>
-        <a href="https://github.com/marccodera" class="zocial-github">Github</a>
-      </div>
+            <div id="social" class="col-md-12">
+                <a href="https://twitter.com/marccodera" class="zocial-twitter">Twitter</a>
+                <a href="https://www.linkedin.com/in/marc-codera/" class="zocial-linkedin">Linkedin</a>
+                <a href="https://github.com/marccodera" class="zocial-github">Github</a>
+            </div>
 
-    </footer>
+        </footer>
+
     </div>
 
     <!-- Modal for every project shown in the Featured Work section, from the first to the last -->
@@ -122,8 +126,7 @@
                     <h4 class="modal-title" id="myModalLabel1">Udacity Project</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive modal-picture" src="./img/pj_movie_trailer_555x300.jpg" alt="First project screenshot, it was a movie trailer site made with python">
-                    This was my first project in this class. I learned a lot about Python, JSON, HTML and CSS.
+                    <img class="img-responsive modal-picture" src="./img/pj_movie_trailer_555x300.jpg" alt="First project screenshot, it was a movie trailer site made with python"> This was my first project in this class. I learned a lot about Python, JSON, HTML and CSS.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -139,8 +142,7 @@
                     <h4 class="modal-title" id="myModalLabel2">Udacity Project</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive modal-picture" src="./img/pj_resume_555x300.jpg" alt="Second project in this class, a resume">
-                    This was my second project in this class, a resume. I learned a lot about HTML and CSS.
+                    <img class="img-responsive modal-picture" src="./img/pj_resume_555x300.jpg" alt="Second project in this class, a resume"> This was my second project in this class, a resume. I learned a lot about HTML and CSS.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -156,8 +158,7 @@
                     <h4 class="modal-title" id="myModalLabel3">Udacity Project</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive modal-picture" src="./img/pj_portfolio_555x300.jpg" alt="Third project image, a screenshot of a portfolio site">
-                    This was my third project in this class, a portfolio website. I learned a lot about HTML and CSS.
+                    <img class="img-responsive modal-picture" src="./img/pj_portfolio_555x300.jpg" alt="Third project image, a screenshot of a portfolio site"> This was my third project in this class, a portfolio website. I learned a lot about HTML and CSS.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -173,8 +174,7 @@
                     <h4 class="modal-title" id="myModalLabel4">Psycological Center</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive modal-picture" src="./img/pj_wordpress_psyc_555x300.jpg" alt="Fourth project image, website made in wordpress">
-                    This was my first personal project, made a wordpress site for a psycological center.
+                    <img class="img-responsive modal-picture" src="./img/pj_wordpress_psyc_555x300.jpg" alt="Fourth project image, website made in wordpress"> This was my first personal project, made a wordpress site for a psycological center.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -190,8 +190,7 @@
                     <h4 class="modal-title" id="myModalLabel5">Favorite App Page 5</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive modal-picture" src="./img/pj_wordpress_uota_555x300.jpg" alt="Fifth project image, website made in wordpress">
-                    This was my second personal project, made a wordpress site for an eating disorders association.
+                    <img class="img-responsive modal-picture" src="./img/pj_wordpress_uota_555x300.jpg" alt="Fifth project image, website made in wordpress"> This was my second personal project, made a wordpress site for an eating disorders association.
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -200,5 +199,9 @@
         </div>
     </div>
 
-  </body>
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+</body>
+
 </html>
